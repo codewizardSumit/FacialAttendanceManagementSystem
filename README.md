@@ -94,5 +94,5 @@ This project is licensed under the [MIT License](LICENSE).
 - Obviously created the project with the help of AI tools (ChatGPT and Gemini).
 
 ---
-For further assistance, feel free to contact us at vidyanshugautam01@gmail.com
+For further assistance, feel free to contact us at ethicalweb01@gmail.com
 
