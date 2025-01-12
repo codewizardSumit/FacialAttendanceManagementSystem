@@ -27,7 +27,6 @@ The Attendance Management System (AMS) is a Python-based project that leverages 
   - `opencv-python`: Real-time video and image processing.
   - `numpy`: Array manipulation for image processing.
   - `mysql-connector-python`: MySQL database connectivity.
-  - `flask`: Web framework for APIs (optional).
 
 ## **Setup Instructions**
 
