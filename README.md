@@ -69,6 +69,7 @@ AMS/
 ├── register.py                 # Handles user registration (teacher/student)
 ├── requirements.txt            # Required Python packages
 ├── session_utils.py            # Utility functions for session handling
+|-- ams_schema.sql              # AMS database schema file
 
 ```
 
