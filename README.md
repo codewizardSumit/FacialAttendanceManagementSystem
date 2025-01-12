@@ -57,15 +57,19 @@ The Attendance Management System (AMS) is a Python-based project that leverages 
 ## **Project Structure**
 ```
 AMS/
-├── main.py                 # Entry point for the application
-├── config.py               # Database connection configuration
-├── register.py             # Handles user registration (teacher/student)
-├── attendance.py           # Manages attendance sessions
-├── faceDetect.py           # Captures face data for registration
-├── trainer.py              # Trains the model for facial recognition
-├── face_recogniser.py      # Recognizes faces during attendance sessions
-├── requirements.txt        # Required Python packages
-└── README.md               # Project documentation
+├── DBconfig.py                 # Database connection configuration
+├── README.md                   # Project documentation
+├── attendances.py              # Manages attendance sessions
+├── biometric_utils.py          # Utility functions for biometric data handling
+├── classUtils.py               # Class and session utilities
+├── getCurrentEncodings.py      # Fetch current face encodings
+├── getMeanEncodings.py         # Calculate mean face encodings
+├── haarcascade_frontalface_default.xml  # Haar Cascade model for face detection
+├── main.py                     # Entry point for the application
+├── register.py                 # Handles user registration (teacher/student)
+├── requirements.txt            # Required Python packages
+├── session_utils.py            # Utility functions for session handling
+
 ```
 
 ## **Usage**
