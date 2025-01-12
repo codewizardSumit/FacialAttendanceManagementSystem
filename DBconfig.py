@@ -22,9 +22,9 @@ def get_db_connection():
     try:
         mydb = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="kali", 
-            database="ams", 
+            user="your_username",
+            password="your_password", 
+            database="db_name", 
             auth_plugin="mysql_native_password"  # Use mysql_native_password 
         )
         logging.info("Successfully connected to the database.")
